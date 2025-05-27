@@ -1,20 +1,3 @@
-###################################################################
-#
-#
-# PROJECT: Create Watershed DEM
-# PURPOSE:
-# This script aims to simplify the raster mosaic process
-# by creating a watershed's Digital Elevation Model (DEM) 
-# using only the following inputs:
-# 1) A csv file with a list of all the dem tile names one
-#    wishes to merge
-# 2) The folder location of all the relevant dem tiles
-# AUTHOR: Ned Santiago, started on August 09, 2023.
-#
-# Completed version 1.0.0 on: August 09, 2023
-###################################################################
-
-
 import os
 from csv import reader
 
